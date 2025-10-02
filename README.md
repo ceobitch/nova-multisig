@@ -2,6 +2,23 @@
 
 <img width="2500" alt="Frame 13" src="https://user-images.githubusercontent.com/81624955/182874414-98d63f58-450d-4520-a440-4bfda8f5329f.png">
 
+## ⚠️ FORK DISCLAIMER
+
+**This is a fork of the original Squads Protocol v4 by Nova Shield LLC.**
+
+This repository is a fork of the original [Squads-Protocol/v4](https://github.com/Squads-Protocol/v4) repository. The only modifications made by Nova Shield LLC are:
+
+- **Program Address**: Updated to Nova Shield's deployment address
+- **Treasury Address**: Updated to Nova Shield's treasury address
+
+**License Compliance**: This fork respects the original AGPL-3.0 license. All other code, functionality, and features remain unchanged from the original Squads Protocol v4 implementation.
+
+**Original Repository**: [https://github.com/Squads-Protocol/v4](https://github.com/Squads-Protocol/v4)
+
+**Nova Shield Contact**: For issues related to this fork, contact: hi@nshield.org
+
+---
+
 The v4 program is the latest upgrade to Squads Protocol. It expands the capabilities of multisig with several new features, including time locks, spending limits, roles, sub-accounts, multiple-party payments and support for address lookup tables. This program was designed to make it easier for developers to leverage multisig consensus and account abstraction on Solana, facilitating the creation of fintech-like applications and enhancing the secure management of on-chain assets.
 
 ## Content
