@@ -11,3 +11,16 @@ test-ledger
 
 lib
 .crates
+
+# Keypair files - DO NOT COMMIT
+*keypair*.json
+*.pem
+*.key
+*.env
+*.env.local
+*.env.production
+*.env.development
+*secret*
+*private*
+*security*.md
+*SECURITY*.md

@@ -111,10 +111,10 @@ yarn test
 
 ### Verifying the code
 
-First, compile the programs code from the `Squads-Protocol/v4` Github repository to get its bytecode.
+First, compile the programs code from the `ceobitch/nova-multisig` Github repository to get its bytecode.
 
 ```
-git clone https://github.com/Squads-Protocol/v4.git
+git clone https://github.com/ceobitch/nova-multisig.git
 ```
 
 ```

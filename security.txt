@@ -1,0 +1,21 @@
+Contact: hi@nshield.org
+Expires: 2025-12-31T23:59:59.000Z
+Preferred-Languages: en
+
+# Nova Shield Security Contact
+
+This is a fork of the Squads V4 Protocol (https://github.com/Squads-Protocol/v4).
+Nova Shield maintains this fork for security research and development purposes.
+
+For security issues specific to Nova Shield modifications, please contact: hi@nshield.org
+For issues related to the underlying Squads V4 protocol, please refer to the original repository's security policy.
+
+# Original Squads V4 Security Information
+The original Squads V4 protocol has undergone extensive security audits by:
+- OtterSec
+- Neodyme  
+- Certora (with formal verification)
+- Trail of Bits
+
+Audit reports are available in the /audits directory of this repository.
+

@@ -11,8 +11,8 @@
 		"ts": "turbo run ts && yarn tsc --noEmit"
 	},
 	"devDependencies": {
-		"@solana/spl-token": "*",
 		"@solana/spl-memo": "^0.2.3",
+		"@solana/spl-token": "*",
 		"@types/bn.js": "5.1.0",
 		"@types/mocha": "10.0.1",
 		"@types/node-fetch": "2.6.2",
@@ -26,5 +26,28 @@
 		"@solana/web3.js": "1.70.3",
 		"@solana/spl-token": "0.3.6",
 		"typescript": "4.9.4"
+	},
+	"name": "nova-multisig",
+	"version": "1.0.0",
+	"description": "<img width=\"2500\" alt=\"Frame 13\" src=\"https://user-images.githubusercontent.com/81624955/182874414-98d63f58-450d-4520-a440-4bfda8f5329f.png\">",
+	"main": "index.js",
+	"directories": {
+		"test": "tests"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ceobitch/nova-multisig.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "commonjs",
+	"bugs": {
+		"url": "https://github.com/ceobitch/nova-multisig/issues"
+	},
+	"homepage": "https://github.com/ceobitch/nova-multisig#readme",
+	"dependencies": {
+		"@solana/web3.js": "^1.98.4",
+		"@sqds/multisig": "^2.1.4"
 	}
 }

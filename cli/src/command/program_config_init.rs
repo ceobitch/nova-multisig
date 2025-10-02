@@ -65,7 +65,7 @@ impl ProgramConfigInit {
         } = self;
 
         let program_id =
-            program_id.unwrap_or_else(|| "SQDS4ep65T869zMMBKyuUq6aD6EgTu8psMjkvj52pCf".to_string());
+            program_id.unwrap_or_else(|| "novabpN56UHHXTFRnJrwuaJaQqCoBeXupf8fsiFA2r2".to_string());
 
         let program_id = Pubkey::from_str(&program_id).expect("Invalid program ID");
         let program_config_authority = Pubkey::from_str(&program_config_authority)
