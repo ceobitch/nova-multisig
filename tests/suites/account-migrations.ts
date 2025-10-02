@@ -12,15 +12,8 @@ describe("Account Schema Migrations", () => {
   const connection = createLocalhostConnection();
 
   it("Multisig account created before introduction of rent_collector field should load by program", async () => {
-    const memberKeypair = Keypair.fromSecretKey(
-      new Uint8Array([
-        56, 145, 84, 172, 159, 38, 155, 221, 251, 78, 28, 43, 31, 8, 69, 68,
-        160, 49, 219, 216, 250, 32, 126, 39, 214, 117, 166, 11, 252, 178, 65,
-        130, 11, 92, 164, 60, 139, 164, 93, 170, 114, 21, 22, 181, 56, 34, 172,
-        176, 108, 3, 104, 246, 136, 240, 25, 14, 175, 151, 198, 192, 130, 183,
-        85, 161,
-      ])
-    );
+    // Generate a new keypair for testing
+    const memberKeypair = Keypair.generate();
     // Fund the member wallet.
     const tx = await connection.requestAirdrop(
       memberKeypair.publicKey,

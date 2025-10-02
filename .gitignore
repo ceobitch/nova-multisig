@@ -24,3 +24,7 @@ lib
 *private*
 *security*.md
 *SECURITY*.md
+
+# Test files with sensitive data
+test-*.json
+*-test-keypair.json
